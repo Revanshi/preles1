@@ -1,4 +1,4 @@
-FROM node:6.14.5
+FROM node:10
 WORKDIR /app
 COPY package.json /app
 RUN npm install
